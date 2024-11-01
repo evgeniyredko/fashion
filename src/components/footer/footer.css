@@ -1,0 +1,133 @@
+.footer {
+    background: #000;
+    color: #fff;
+}
+
+.footer .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    justify-content: space-between;
+    padding-top: 119px;
+    padding-bottom: 119px;
+}
+
+.footer__left {
+    width: 400px;
+}
+
+.footer__desc {
+    padding-top: 24px;
+    padding-bottom: 32px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 2;
+    letter-spacing: 0.02em;
+    color: #8e8e8e;
+}
+
+.footer__socials ul {
+    display: flex;
+    column-gap: 14px;
+}
+
+.footer__socials a:hover {
+    opacity: 0.7;
+    transition: all 0.2s ease-in;
+}
+
+.footer__right {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+}
+
+.footer__menu li {
+    padding: 6px 0;
+    margin-bottom: 9px;
+}
+
+.footer__menu a {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    letter-spacing: 0.02em;
+    color: #d9d9d9;
+}
+
+.footer__menu a:hover {
+    color: #fff;
+    transition: all 0.2s ease-in;
+}
+
+.footer__left .logo span {
+    color: #fff;
+}
+
+.footer__menu li {
+    width: 200px;
+}
+
+@media screen and (max-width: 1365px) {
+    .footer .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__left {
+        margin-bottom: 140px;
+        text-align: center;
+    }
+    .footer__left .logo span {
+        margin: 0 auto;
+    }
+    .footer__socials {
+
+    }
+    .footer__socials ul {
+        justify-content: space-between;
+    }
+
+    .footer__right {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        padding: 0 80px;
+    }
+
+    .footer__menu li {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .footer__right {
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footer__right {
+        flex-direction: column;
+    }
+
+    .footer__menu li {
+        margin: 0 auto;
+    }
+
+    .footer__left {
+        margin-bottom: 100px;
+    }
+
+    .footer__menu {
+        margin-bottom: 40px;
+    }
+
+    .footer .container {
+        padding-bottom: 0;
+    }
+
+    .footer__left {
+        width: inherit;
+    }
+}

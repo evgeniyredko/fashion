@@ -1,0 +1,170 @@
+.promo {
+    margin-bottom: 63px;
+}
+
+.promo__text {
+    padding-bottom: 65px;
+    padding-top: 10px;
+}
+
+.promo__content {
+    display: flex;
+    column-gap: 24px;
+
+    padding-top: 68px;
+    padding-left: 120px;
+
+    border-radius: 59px;
+    background-color: #F4F6F5;
+}
+
+.promo__title {
+    display: inline-grid;
+    margin-bottom: 32px;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 1.25;
+    max-width: 606px;
+}
+
+.promo__desc {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.5;
+    letter-spacing: -0.05em;
+    margin-bottom: 42px;
+}
+
+.promo__btn-wrapper {
+    display: flex;
+    column-gap: 38px;
+    align-items: center;
+}
+
+.promo__btn-wrapper::before {
+    content: "";
+    display: inline-block;
+    width: 190px;
+    height: 32px;
+    background-image: url('./../../img/icons/decor-yellow.svg');
+}
+
+.promo__btn {
+    display: inline-block;
+    padding: 18px 42px;
+    background: #000;
+    border-radius: 10px;
+    font-weight: 500;
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: -0.05em;
+}
+
+.promo__btn:hover {
+    opacity: 0.7;
+    transition: all 0.2s ease-in;
+}
+
+.highlight {
+    position: relative;
+}
+
+.highlight span {
+    position: relative;
+}
+
+.highlight::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -6px;
+    bottom: 9px;
+    left: -23px;
+    right: -175px;
+    background-color: #fff;
+    transform: rotate(-2deg);
+
+}
+
+.highlight--yellow::before {
+    background-color: var(--yellow);
+    right: -110px;
+}
+
+@media screen and (max-width: 1720px) {
+    .promo__title {
+        font-size: 70px;
+    }
+    .promo__desc {
+        font-size: 24px;
+    }
+    .promo__img {
+        margin: 0 auto;
+    }
+    .promo__img img {
+        max-height: 617px;
+    }
+}
+
+@media screen and (max-width: 1365px) {
+    .promo__title {
+        font-size: 60px;
+    }
+    .promo__desc {
+        font-size: 20px;
+    }
+    .promo__btn-wrapper::before {
+        display: none;
+    }
+    .promo__btn {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1279px) {
+    .promo__content {
+        flex-direction: column;
+        padding: 68px 90px 0;
+    }
+    .promo__img img {
+        max-height: 100%;
+    }
+    .promo__img {
+        order: 0;
+    }
+    .promo__text {
+        order: 1;
+        padding-top: 65px;
+        text-align: center;
+    }
+    .promo__title {
+        font-size: 70px;
+    }
+    .promo__desc {
+        font-size: 24px;
+    }
+    .promo__btn {
+        font-size: 30px;
+    }
+    .promo__btn-wrapper {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .promo__title {
+        font-size: 50px;
+    }
+    .promo__content {
+        padding: 68px 40px 0;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .promo__content {
+        padding: 68px 0;
+    }
+    .promo__text {
+        padding-bottom: 20px;
+    }
+}

@@ -1,0 +1,154 @@
+.header {
+    padding: 46px 0 56px;
+}
+
+.header__row {
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.logo:hover {
+    opacity: 0.7;
+    transition: all 0.2s ease-in;
+}
+
+.logo span {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.header__nav {
+    display: flex;
+    column-gap: 55px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__nav {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.nav ul {
+    display: flex;
+    column-gap: 65px;
+    align-items: center;
+}
+
+.header__nav nav a {
+    color: var(--textColor);
+}
+
+.header__nav nav a:hover {
+    opacity: 0.7;
+    transition: all 0.2s ease-in;
+}
+
+.sign-up {
+    padding: 13px 23px;
+    background-color: #000;
+    border-radius: 7px;
+    letter-spacing: -0.03em;
+    font-size: 24px;
+    color: #fff;
+}
+
+.sign-up:hover {
+    opacity: 0.7;
+    transition: all 0.2s ease-in;
+}
+
+.header__row--mobile {
+    position: fixed;
+    z-index: 9;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    row-gap: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.header__row--mobile .header__nav {
+    display: block;
+}
+.header__row--mobile .nav__list {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+    margin-bottom: 40px;
+}
+.header__row--mobile .header__nav-btn {
+    position: fixed;
+    top: 50px;
+    right: 15px;
+}
+
+@media screen and (max-width: 1279px) {
+    .header__nav {
+        font-size: 16px;
+    }
+    .sign-up {
+        font-size: 18px;
+    }
+    .header__logo .logo span {
+        font-size: 30px;
+    }
+}
+
+
+@media screen and (max-width: 1023px) {
+    .header__nav {
+        display: none;
+    }
+}
+
+.header__nav-btn {
+    display: none;
+}
+
+@media screen and (max-width: 1023px) {
+    .header__nav-btn {
+        display: block;
+    }
+    .header__nav {
+        font-size: 22px;
+    }
+    .sign-up {
+        font-size: 24px;
+    }
+    .header__logo .logo span {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .header__nav {
+        font-size: 18px;
+    }
+    .sign-up {
+        font-size: 20px;
+    }
+    .header__logo .logo span {
+        font-size: 34px;
+    }
+}
