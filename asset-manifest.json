@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/fashion/static/css/main.381b9ea3.css",
+    "main.js": "/fashion/static/js/main.1b63b960.js",
+    "static/media/header-img.jpg": "/fashion/static/media/header-img.3266b145a803ea6064bc.jpg",
+    "static/media/promo-img.jpg": "/fashion/static/media/promo-img.97628e20cc3f9f5f2e0c.jpg",
+    "static/media/01.jpg": "/fashion/static/media/01.0fd46e2db658127035fd.jpg",
+    "static/media/vouchers-img.png": "/fashion/static/media/vouchers-img.f5ec177a9d52ad6a847d.png",
+    "static/media/cat-03.jpg": "/fashion/static/media/cat-03.eb55f780a8fbbaf39b98.jpg",
+    "static/media/cat-01.jpg": "/fashion/static/media/cat-01.c4e2270f3eab9f7477cf.jpg",
+    "static/media/02.jpg": "/fashion/static/media/02.8ce89364dde157095cff.jpg",
+    "static/media/cat-02.jpg": "/fashion/static/media/cat-02.da44a5e6d64780d948d6.jpg",
+    "static/media/Amazon.png": "/fashion/static/media/Amazon.0eaeca692e814140707d.png",
+    "static/media/Shopify.png": "/fashion/static/media/Shopify.b4131342ebf309c24258.png",
+    "static/media/Lacoste.png": "/fashion/static/media/Lacoste.41bb85ceb645374b4eb8.png",
+    "static/media/logo.svg": "/fashion/static/media/logo.fa6ed5442940b2375841123db8c623be.svg",
+    "static/media/inst.svg": "/fashion/static/media/inst.732079676e1f1e8f5ab8d3607bb89ff5.svg",
+    "static/media/tw.svg": "/fashion/static/media/tw.28bd6c068f25e4ae67cd362b1da1f8d2.svg",
+    "static/media/in.svg": "/fashion/static/media/in.4129b910559039efab168699f9e7c86f.svg",
+    "index.html": "/fashion/index.html",
+    "static/media/arrow.svg": "/fashion/static/media/arrow.9d4f9d5e31a0e0b90396898109d19746.svg",
+    "static/media/fb.svg": "/fashion/static/media/fb.4faf19d0bfe6a510d553b2e4528e5bf8.svg",
+    "static/media/decor-yellow.svg": "/fashion/static/media/decor-yellow.a14a51327547871fd595.svg",
+    "main.381b9ea3.css.map": "/fashion/static/css/main.381b9ea3.css.map",
+    "main.1b63b960.js.map": "/fashion/static/js/main.1b63b960.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.381b9ea3.css",
+    "static/js/main.1b63b960.js"
+  ]
+}
